@@ -15,7 +15,7 @@ Profesores:
 
 * ### [Herramientas de simulación *Open Source*](./labs/lab00/simulation_tools.md)
 
-* ### [[Instalación de herramientas opensource de simulación, síntesis y configuración de sistemas digitales](https://github.com/johnnycubides/digital-electronic-1-101/blob/main/installTools/conda-and-tools.md)
+* ### [Instalación de herramientas opensource de simulación, síntesis y configuración de sistemas digitales](https://github.com/johnnycubides/digital-electronic-1-101/blob/main/installTools/conda-and-tools.md)
 
 ## Laboratorios:
 
