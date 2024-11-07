@@ -6,7 +6,7 @@ Profesores:
 
 
 * Jhon Alexander Ramírez Martinez &rarr; Grupos 1 y 2
-* Jhonny Germán Cubides Castro &rarr; Grupos 3 y 4
+* Johnny Germán Cubides Castro &rarr; Grupos 3 y 4
 * Diana Natali Maldonado Ramírez &rarr; Grupos 5 y 6
 
 ## Instalación de herramientas 
