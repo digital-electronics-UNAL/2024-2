@@ -48,3 +48,4 @@ especificaciones técnicas de las tecnologías, mediciones obtenidas en el labor
 ## Referencias
 
 * [Qucs, instlación y ejemplos de uso](https://github.com/johnnycubides/qucs-tutorial-examples)
+* [Modelos spices del 74LS04 y CD4069](./spice/)
