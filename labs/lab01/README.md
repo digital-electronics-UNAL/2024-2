@@ -42,6 +42,7 @@ Los parámetros de cada tecnología para observar el comportamiento del mismo.
 ### Parte 3
 
 1. Estudie el oscilador en anillo basado en la compuerta NOT
+![ring-osc](./ring-osc.svg)
 2. Monte dos diferentes osciladores en anillo con el negador CMOS
 3. Observe de cada uno de ellos la forma de onda como su frecuencia de oscilación
 4. Realice una comparación entre ambos osciladores según lo observado
