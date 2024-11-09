@@ -50,7 +50,8 @@ Los parámetros de cada tecnología para observar el comportamiento del mismo.
 ## A tener en cuenta
 
 
-* Simular cada compuerta con su modelo spice variando la frecuencia de la señal de entrada.
+* Simular cada compuerta con su modelo spice variando la frecuencia de la señal de entrada
+* Simular los osciladores en anillo.
 * Comparar los resultados de los tiempo medidos en el laboratorio con los obtenidos en la simulación.
 * Obtener la característica de $V_{in}$ vs $V_{out}$.
 * Comparar las mediciones
