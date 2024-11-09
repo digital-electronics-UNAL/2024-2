@@ -1,5 +1,15 @@
 # COMPARACIÓN DE TECNOLOGÍA CMOS y TTL
 
+La electrónica digital se encarga del procesamiento de señales eléctricas
+mediante circuitos que operan con valores discretos. Sin embargo, estos valores
+están representados en diferentes niveles de tensión/corriente, frecuencia, de tal
+manera que su aplicación depende en gran medida de la tecnología de fabricación.
+
+Para el desarrollo de esta actividad se estudiará la implementación de una operación
+lógica en las tecnologías TTL y CMOS donde se observará las diferencias entre 
+su circuito equivalente, tiempo de respuesta, entre otros.
+
+
 ## Objetivos
 
 * Identificar las características de un dispositivo fabricado en diferentes tecnologías.
@@ -17,12 +27,9 @@
 ### Parte 1
 
 1. Observar comparativamente las especificaciones técnicas de cada uno de los dispositivo mencionados.
-
 2. Determinar el circuito equivalente para cada uno de los dispositivos.
-
-3. Aplicar una señal cuadrada de 1 KHz para medir: $V_{out}$ vs $V_{in}$ y a partir de estos gráficos Determinar
+3. Aplicar una señal cuadrada de 1 KHz de tensión adecuada para medir: $V_{out}$ vs $V_{in}$ y a partir de estos gráficos Determinar
    $V_{IH}$, $V_{IL}$, $V_{OH}$, $V_{OL}$.
-
 4. Medir el tiempo de subida, tiempo de bajada, tiempo de retardo, tiempo de almacenamiento para cada dispositivo.
 
 ### Parte 2
@@ -31,6 +38,13 @@
 2. Determinar la disipación de potencia.
 3. Proponer e implementar un circuito de entrada y de salida para cada uno de los dispositivos teniendo en cuenta
 Los parámetros de cada tecnología para observar el comportamiento del mismo.
+
+### Parte 3
+
+1. Estudie el oscilador en anillo basado en la compuerta NOT
+2. Monte dos diferentes osciladores en anillo con el negador CMOS
+3. Observe de cada uno de ellos la forma de onda como su frecuencia de oscilación
+4. Realice una comparación entre ambos osciladores según lo observado
 
 ## A tener en cuenta
 
