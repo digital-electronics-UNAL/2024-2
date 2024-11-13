@@ -34,9 +34,11 @@ como se muestra en la siguiente imagen
 
  Si desea crear un simbolo personalizado para el componente siga los pasos del siguiente ítem, de lo contrario guarde el archivo con extesión ```.asy``` en el directorio de componentes generados (```/generated```) de LTSpice, que por lo general se encuentra en la siguiente ubicación:
 
-    ```
-    C:\users\*user\Local Settings\Application Data\LTspice\lib\sym\generated/
-    ```
+```
+C:\users\*user\Local Settings\Application Data\LTspice\lib\sym\generated/
+```
+
+donde ```*user``` es el nombre de la respectiva cuenta de usuario en su pc.
 
 Una vez guardado, en la ventana de LTSpice donde se crean los esquemáticos (con extesión ```.asc```) podrá encontrar el componente en la opción
  ```Component``` en la barra de iconos de LTSpice, u oprimiendo la tecla ```P```, allí deberá encontrar la carpeta ```generated``` como se muestra:
