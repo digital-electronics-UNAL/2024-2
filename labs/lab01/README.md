@@ -26,7 +26,7 @@ su circuito equivalente, tiempo de respuesta, entre otros.
 
 ### Parte 1
 
-1. Observar comparativamente las especificaciones técnicas de cada uno de los dispositivo mencionados.
+1. Comparar las especificaciones técnicas de cada uno de los dispositivo mencionados.
 2. Determinar el circuito equivalente para cada uno de los dispositivos.
 3. Aplicar una señal cuadrada de 1 KHz de tensión adecuada para medir: $V_{out}$ vs $V_{in}$ y a partir de estos gráficos Determinar
    $V_{IH}$, $V_{IL}$, $V_{OH}$, $V_{OL}$.
@@ -36,8 +36,7 @@ su circuito equivalente, tiempo de respuesta, entre otros.
 
 1. Determinar el fan-in y fan-out de cada uno de los dispositivos.
 2. Determinar la disipación de potencia.
-3. Proponer e implementar un circuito de entrada y de salida para cada uno de los dispositivos teniendo en cuenta
-Los parámetros de cada tecnología para observar el comportamiento del mismo.
+3. Proponer e implementar un circuito de entrada y de salida para cada uno de los dispositivos teniendo en cuenta los parámetros de cada tecnología para observar el comportamiento del mismo.
 
 ### Parte 3
 
@@ -54,14 +53,14 @@ Los parámetros de cada tecnología para observar el comportamiento del mismo.
 * Comparar los resultados de los tiempo medidos en el laboratorio con los obtenidos en la simulación.
 * Obtener la característica de $V_{in}$ vs $V_{out}$.
 * Simular los osciladores en anillo.
-* Comparar las mediciones
+* Comparar las mediciones.
 
-## Entrega
+## Entregables
 
-Se requiere la entrega de un informe donde responda cada uno de los apartados teniendo en cuenta simulaciones,
-especificaciones técnicas de las tecnologías, mediciones obtenidas en el laboratorio de manera sustentada.
+Se requiere la entrega de un informe donde responda cada uno de los apartados teniendo en cuenta simulaciones, especificaciones técnicas de las tecnologías, mediciones obtenidas en el laboratorio de manera sustentada.
 
 ## Referencias
 
 * [Qucs, instalación y ejemplos de uso](https://github.com/johnnycubides/qucs-tutorial-examples)
 * [Modelos spices del 74LS04 y CD4069](./spice/)
+* [Importar modelos en LTSpice](./spice/LTSpice)
