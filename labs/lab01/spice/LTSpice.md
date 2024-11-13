@@ -11,7 +11,7 @@ A continuación se detalla el procedimiento para importar modelos en LTSpice, us
 ```
 .SUBCKT CD4069UB Y A VCC AGND
 ```
-    como se muestra en la siguiente imagen
+como se muestra en la siguiente imagen
 
 <div align="center">
     <img src="/pics/CD4069UB_1.png" width="400" height="600">
