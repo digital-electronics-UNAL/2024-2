@@ -15,22 +15,22 @@ A continuación se detalla el procedimiento para importar modelos en LTSpice, us
 3. En le menú seleccionar ```Create Symbol``` lo que deberá abrir una nueva ventana en LTSpice con extensión ```.asy```, en donde podrá visualizar el componente como se muestra a continuación:
 
 <div align="center">
-    <img src="/pics/CD4069UB.png" alt="Figura 1" width="300" height="200">
+    <img src="/pics/CD4069UB.png" width="200" height="200">
 </div>
 
 
 
-Si desea crear un simbolo personalizado para el componente siga los pasos del siguiente ítem, de lo contrario guarde el archivo con extesión ```.asy``` en el directorio de componentes generados (```/generated```) de LTSpice, que por lo general se encuentra en la siguiente ubicación:
+    Si desea crear un simbolo personalizado para el componente siga los pasos del siguiente ítem, de lo contrario guarde el archivo con extesión ```.asy``` en el directorio de componentes generados (```/generated```) de LTSpice, que por lo general se encuentra en la siguiente ubicación:
 
-```
-C:\users\*user\Local Settings\Application Data\LTspice\lib\sym\generated/
-```
+    ```
+    C:\users\*user\Local Settings\Application Data\LTspice\lib\sym\generated/
+    ```
 
 Una vez guardado, en la ventana de LTSpice donde se crean los esquemáticos (con extesión ```.asc```) podrá encontrar el componente en la opción
  ```Component``` en la barra de iconos de LTSpice, u oprimiendo la tecla ```P```, allí deberá encontrar la carpeta ```generated``` como se muestra:
 
  <div align="center">
-    <img src="/pics/ltspice_generated.png" alt="Figura 2" width="300" height="200">
+    <img src="/pics/ltspice_generated.png" alt="Figura 2" width="600" height="400">
 </div>
 
 
