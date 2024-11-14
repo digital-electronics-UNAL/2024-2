@@ -57,7 +57,7 @@ su circuito equivalente, tiempo de respuesta, entre otros.
 
 ## Entregables
 
-Se requiere la entrega de un informe donde responda cada uno de los apartados teniendo en cuenta simulaciones, especificaciones técnicas de las tecnologías, mediciones obtenidas en el laboratorio de manera sustentada.
+Se requiere la entrega de un informe donde responda cada uno de los apartados teniendo en cuenta simulaciones, especificaciones técnicas de las compuertas utilizadas en esta práctica, mediciones obtenidas en el laboratorio de manera sustentada.
 
 ## Referencias
 
