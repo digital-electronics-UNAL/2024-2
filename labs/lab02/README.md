@@ -143,7 +143,7 @@ donde:
 
 2. Explique el item anterior en su respectivo archivo ```README.md```.
 
-3. Realice la respectiva simulación de las dos descripción HDL y muestre evidencias en su respectivo archivo ```README.md```, corroborando que se cumple la tabla de verdad descrita anteriormente.
+3. Realice la respectiva simulación de las dos descripciones y muestre evidencias en su respectivo archivo ```README.md```, corroborando que se cumple la tabla de verdad descrita anteriormente.
 
 4. Implemente la descripción HDL en la tarjeta de desarrollo, empleando la ```IDE Quartus``` y muestre en el laboratorio el funcionamiento del sumador de 1 bit, empleando interruptores como las entradas y LEDs como las salidas. 
 
