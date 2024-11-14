@@ -30,7 +30,7 @@ su circuito equivalente, tiempo de respuesta, entre otros.
 2. Determinar el circuito equivalente para cada uno de los dispositivos.
 3. Aplicar una señal cuadrada de 1 KHz de tensión adecuada para medir: $V_{out}$ vs $V_{in}$ y a partir de estos gráficos Determinar
    $V_{IH}$, $V_{IL}$, $V_{OH}$, $V_{OL}$.
-4. Medir el tiempo de subida, tiempo de bajada, tiempo de retardo, tiempo de almacenamiento para cada dispositivo.
+4. Medir el tiempo de subida (tr), tiempo de bajada (tf), tiempo de retardo (tphl y tplh), tiempo de almacenamiento para cada dispositivo.
 
 ### Parte 2
 
