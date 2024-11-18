@@ -1,41 +1,4 @@
-## Laboratorio 2: Introducción al diseño digital
-
-
-
-
-En un empresa requieren el diseño e implementación de un sistema de aviso de caidas de personas en la planta
-
-La planta tiene cuatro zonas de operación 
-1. Pintura
-2. Ensamblado
-3. Empaquetado
-4. Calidad
-   
-Se requiere lo siguiente:
-
-La instalación en cada zona de un accesorio para poder reportar cuadno se presente una caida.
-Deben existir avisos visuales y auditivos en las siguinets partes
-
-a ser definido.
-Cuando se reporta caidas de las zonas de pintura y ensamblado el aviso debe ser auditivos
-Cuando se porta caidas de la zona de empaquetado el aviso debe ser visual
-Cuando se reporta caida en la zona de calidad el aviso debe ser auditivo y visual.
-
-EN caso que se presenten caidas simultaneas el aviso de ser'a asi:
-
-Dos zonas simulataneas: Visual
-Tres zonas simultaneas AUditivo
-Cuatroz zonas simultaneas auditivo y visual
-Indiando la zona donde se realizao el aviso
-
-
-
-Condiciones
-
-Emular los accesorios derporte de caidas con los recursos que existan en las tarjetas disponibles en el laboratorio.
-Idem Salidas.
-
-## Objetivos
+## Objetivos de aprendizaje
 
 * Introducir los conceptos fundamentales de la descripción de hardware digital, a través de los enfoques estructural y comportamental, realizando de la implementación de un sumador de 1 bit.  
 
