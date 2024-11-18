@@ -1,4 +1,16 @@
-# FPGA Design Software - Quartus
+# Tutorial para instalar y configurar FPGA Design Software - Quartus.
+
+Indice:
+
+* [Descargar e instalar Intel Quartus Prime](#descargar-e-instalar-intel-quartus-prime).
+    * [Configurar la variable de entorno para Questa](#configuración-de-la-variable-de-entorno)
+* [Descargar e instalar el simulador Questa](#descargar-e-instalar-la-herramienta-de-simulación-questa).
+* [Configurar del programador (USB-blaster) de la FPGA](#configuración-del-programador-usb-blaster-de-la-fpga).
+* [Entregables](#entregables)
+
+
+*  *  *  *  *
+
 
 ## Descargar e instalar Intel Quartus Prime:
 
@@ -25,7 +37,7 @@
         ```
         Reemplace ```*```  con el nombre del archivo ```.run```.
 
-## Configuración de las variables de entorno
+### Configuración de la variable de entorno
 
 Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH```, se define en dónde el sistema operativo puede encontrar el ejecutable de Quartus. Esto permite ejecutar el comando ```quartus``` desde cualquier ubicación en la terminal, simplificando el acceso a la herramienta. Esto se puede hacer de la siguiente manera:
 
@@ -62,7 +74,7 @@ Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH``
 Ahora podrá ejecutar la IDE Quartus utilizando el comando ```quartus``` en la terminal.
 
 
-## Inslación de la herramienta de simulación Questa
+## Descargar e instalar la herramienta de simulación Questa
 
 ### Descargar instalador
 
@@ -163,41 +175,64 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
     export LM_LICENSE_FILE=path_del_archivo/nombre_archivo.dat
     ```
 
+## Configuración del programador (USB-blaster) de la FPGA:
 
 
-  *  *  *  *  *
+### udev - Gestor Dinámico de Dispositivos Linux: 
 
-<!-- ## Configuración básica para un nuevo proyecto en Quartus Prime lite
+```udev``` es un sistema de espacio de usuario (se refiere a un espacio de aplicación, parcialmente en Unix o en sistemas operativos tipo Unix, el cual es externo al núcleo) que permite al administrador del sistema operativo registrar controladores de espacio de usuario para eventos. Estos eventos son generados principalmente por el kernel de Linux en respuesta a eventos físicos relacionados con dispositivos periféricos, en este caso el USB-blaster de la FPGA, permitiendo identificar dispositivos de forma dinámica en función de sus propiedades, como la ID del proveedor y la ID del dispositivo.
 
-* Una vez instalado, debe abrir el programa ´Quartus´.
-* En la barra de herramientas (toolbar) de Quartus, navegar en el menú ```File``` y hacer click en  ```New Project Wizard```. (ver imagen)
+### Crear una regla ```udev``` para el USB-blaster de la FPGA:
 
-![proyectWizard](./pics/f1.png) 
+* Existe una carpeta de reglas ```udev``` en el directorio ```root```, para acceder a este se debe:
 
-* **Directory, Name, Top-Level Entity**,  seleccione el directorio donde se guarda el proyecto y el nombre del mismo. Tenga presente que debe colocar el nombre del módulo top en la tercera casilla, puede ser el mismo del proyecto. (ver imagen) 
-    ***Recuerde:*** El nombre del módulo-top es sensible a mayúsculas.
+    ```
+    cd /
+    cd etc/udev/rules.d/
+    ```
 
-![proyectWizard](./pics/f2.png) altera
+* Una vez en este directorio, con el comando ```sudo``` (porque estamos en un directorio ```root```) se debe crear un archivo con el nombre **51-usbblaster.rules** así:
 
-* **Project Type**, seleccione el template ```Empy project```.
+    ```
+    sudo touch 51-usbblaster.rules
+    ```
 
-* **Add File**, si ya cuenta con los archivos fuentes de HDL adicione los ficheros respectivos. De igual manera, pueden agregar archivos fuentes más adelante.
+    Con el comando anterior se creó un arhivo ```.rules``` vacío.
 
-*  **Family, Device & Board Settings**,  Busque la tarjeta de desarrollo o la referencia de la FPGA  que se va a utilizar, ```10M50DAF484```, si considera necesario busque el nombre en la casilla  ```Name filter```, seleccione en el panel  Available devices el dispositivo usado. (ver imagen)
+* Ahora se deben agregar las siguientes líneas dentro de ese archivo, para lo cual se puede hacer de dos formas:
 
-![proyectWizard](./pics/f3.png) 
+  - Abrir en el directorio ```rules.d``` el editor de texto de preferencia, por ejemplo para VSC el comando ```code .``` abrirá el editor en dicha ubicación, en donde verá en la barra EXPLORER el archivo ```.rules``` creado junto a otros archivos y podrá editarlo agregando las siguientes líneas, pero, cuando lo intente guardar, VSC le solictará permiso para hacerlo como super usuario (sudo).
+
+  - Con el comando ```sudo nano 51-usbblaster.rules``` abrirá el archivo creado anteriormente en la terminal y podrá agregar las siguientes lineas.
+
+```
+# Intel FPGA Download Cable
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6001", MODE="0666"
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6002", MODE="0666"
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6003", MODE="0666"
+
+# Intel FPGA Download Cable II
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6010", MODE="0666"
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6810", MODE="0666"
+```
+
+* Una vez creadas las reglas para el USB-blaster de la FPGA el siguiente comando actualizará dichas reglas en el sistema:
+
+```
+udevadm control --reload-rules
+```
+
+* Para finalizar, se debe hacer un *reboot* del computador.
 
 
-* **EDA Tool Settings**,  espeficar la herramienta de simulación que se va a utilizar, se recomiendan  ```ModelSim``` (ver imagen) o ```Questa```. 
+*  *  *  *  *
 
-![proyectWizard](./pics/f4.png) 
-
-* **Summary**, se debe revisar que la información de este panel esté acorde según la configuración realizada . (ver imagen)
-
-![proyectWizard](./pics/f4b.png)  -->
-
-
-# Entregables 
+## Entregables 
 
 Tener configurado el *framework* según los pasos anteriores.
 
