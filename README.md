@@ -21,4 +21,4 @@ Profesores:
 
 ### [1. Lab01 - Comparación de tecnologías CMOS vs TTL](./labs/lab01/README.md)
 
-### [2. Lab02 - Sumador de 1 bit y sumador de 4 bits].
+### [2. Lab02 - Sumador de 1 bit y sumador de 4 bits](./labs/lab02/README.md)
