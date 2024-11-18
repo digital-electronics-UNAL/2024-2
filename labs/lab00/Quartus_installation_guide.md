@@ -1,6 +1,6 @@
 # Tutorial para instalar y configurar FPGA Design Software - Quartus.
 
-Indice:
+Índice:
 
 * [Descargar e instalar Intel Quartus Prime](#descargar-e-instalar-intel-quartus-prime).
     * [Configurar la variable de entorno para Questa](#configuración-de-la-variable-de-entorno)

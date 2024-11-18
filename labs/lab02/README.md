@@ -1,4 +1,6 @@
-## Laboratorio 2: Sumador de 1 bit y de 4 bits.
+## Laboratorio 2: Introducción al diseño digital
+
+
 
 
 En un empresa requieren el diseño e implementación de un sistema de aviso de caidas de personas en la planta
