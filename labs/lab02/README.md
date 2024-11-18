@@ -1,3 +1,6 @@
+# Laboratorio 2: Sumador de 1 y 4 bits.
+
+
 ## Objetivos de aprendizaje
 
 * Introducir los conceptos fundamentales de la descripción de hardware digital, a través de los enfoques estructural y comportamental, realizando de la implementación de un sumador de 1 bit.  
