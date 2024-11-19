@@ -64,3 +64,4 @@ Se requiere la entrega de un informe donde responda cada uno de los apartados te
 * [Qucs, instalación y ejemplos de uso](https://github.com/johnnycubides/qucs-tutorial-examples)
 * [Modelos spices del 74LS04 y CD4069](./spice/)
 * [Importar modelos en LTSpice](./spice/LTSpice.md)
+* [Vídeo sobre niveles de tensión y corriente para algunas tecnologías de electrónica digital](https://www.youtube.com/watch?v=wCQ2D2S836I)
