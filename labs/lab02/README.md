@@ -1,4 +1,4 @@
-# Laboratorio 2: Introducción al diseño digital.
+# Laboratorio 2: Reto 1 - Medidor de carga.
 
 
 ### Objetivos de aprendizaje
@@ -17,6 +17,7 @@ Se requiere implementar un sistema que de aviso del nivel de carga de un banco d
 Estas baterías cuentan cada una con un sensor de tensión que entrega valores entre 0 y 15 en sistema binario, dependiendo del nivel de carga de cada una, donde: 
 
 0000 (0)  ---> Batería completamente descargada.
+
 1111 (15) ---> Batería Completamente cargada.
 
 ### Requisitos funcionales.
