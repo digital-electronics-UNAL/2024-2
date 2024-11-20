@@ -1,10 +1,22 @@
-# Parte 1: Sumador de 1 bit
+# Sumador de 1 bit y sumador de 4 bits
 
-En diseño digital, un sumador de 1 bit es un circuito combinacional que realiza la suma de dos bits junto con un bit de acarreo de entrada. Es uno de los bloques fundamentales en la construcción de sumadores de mayor tamaño, que son esenciales en operaciones aritméticas dentro de procesadores y sistemas digitales. También se conoce como sumador completo.
+Índice:
 
-El sumador de 1 bit toma tres entradas: los dos bits que se desean sumar (```A``` y ```B```) y un bit de acarreo de entrada (```Ci```) que puede provenir de una posición menos significativa en un sumador más grande. El circuito produce dos salidas: el bit de suma (```So```) y el bit de acarreo de salida (```Co```). A continuación se muestra su respectivo bloque funcional:
+1. [Sumador de 1 bit](#sumador-de-1-bit)
+
+    * [Funcionamiento](#funcionamiento)
+    * [Implementación en HDL](#implementación-en-hdl)
+
+2. [Sumador de 4 bits](#sumador-de-4-bits)
+
+    * [Funcionamiento](#funcionamiento-1)
+    * [Implementación en HDL](#implementación-en-hdl-1)
+      * [Concepto de instancia](#concepto-de-instancia)
 
 
+## Sumador de 1 bit
+
+En diseño digital, un sumador de 1 bit es un circuito combinacional que realiza la suma de dos bits junto con un bit de acarreo de entrada. Es uno de los bloques fundamentales en la construcción de sumadores de mayor tamaño, que son esenciales en operaciones aritméticas dentro de procesadores y sistemas digitales. También se conoce como sumador completo.  A continuación se muestra su respectivo bloque funcional:
 
 <p align="center">
  <img src="/pics/lab02/1bit.png" alt="alt text" width=300 >
@@ -12,6 +24,12 @@ El sumador de 1 bit toma tres entradas: los dos bits que se desean sumar (```A``
 <p align="center">
  Figura 1
 </p>
+
+
+### Funcionamiento:
+
+El sumador de 1 bit toma tres entradas: los dos bits que se desean sumar (```A``` y ```B```) y un bit de acarreo de entrada (```Ci```) que puede provenir de una posición menos significativa en un sumador más grande. El circuito produce dos salidas: el bit de suma (```So```) y el bit de acarreo de salida (```Co```).
+
 
 
 
@@ -74,10 +92,8 @@ En el contexto HDL, las primitivas se refieren a las puertas lógicas básicas y
 En la implementación basada en comportamiento o implementación de alto nivel se utiliza un enfoque más abstracto para describir el comportamiento del circuito en lugar de utilizar puertas lógicas primitivas. Este tipo de implementación se enfoca en especificar qué se debe hacer, más que en cómo se hace a nivel de *hardware*. Este enfoque simplifica la descripción del comportamiento del sumador al evitar el detalle de las puertas lógicas primitivas, facilitando así la comprensión y la mantenibilidad del código.
 
 
-[Parte 2.------------------------------------------------------------]: #
 
-
-## Parte 02: Sumador de 4 bits
+## Sumador de 4 bits
 
 
 Para crear un sumador de 4 bits, se utilizan cuatro sumadores de 1 bit conectados en serie. Así, el acarreo de salida de un sumador de 1 bit se convierte en el acarreo de entrada del siguiente sumador. Cada bit de los dos números que se están sumando se procesa de manera paralela. 
@@ -102,7 +118,9 @@ La implementación del sumador de 4 bits utilizando instancias del sumador de 1 
 
 * El sumador de 4 bits produce una salida final ```So``` de 4 bits y un acarreo de salida final ```Co```.
 
-### Concepto de instancia
+### Implementación en HDL
+
+#### Concepto de instancia
 
 En el contexto de diseño digital y descripción HDL, una instancia se refiere a la creación de un módulo a partir de una definición previamente definida. Instanciar un módulo significa utilizar el módulo definido anteriormente como un bloque en un diseño más grande, proporcionando conexiones específicas para las entradas y salidas del módulo.
 
