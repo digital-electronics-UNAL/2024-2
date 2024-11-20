@@ -22,7 +22,7 @@
 * **Directory, Name, Top-Level Entity**,  seleccione el directorio donde desee guardar el proyecto y el nombre del mismo. Tenga presente que debe colocar el nombre del módulo top en la tercera casilla (puede ser el mismo del proyecto). 
     ***Recuerde:*** El nombre del módulo-top es sensible a mayúsculas.
 
-  ![proyectWizard](/pics/lab02/f2.png)
+  ![proyectWizard](/pics/lab02/project.png)
 
 * **Project Type**: Seleccione el template ```Empy project```.
 
@@ -30,7 +30,7 @@
 
 *  **Family, Device & Board Settings**:  Seleccione la referencia de la FPGA  que se va a utilizar, en este caso ```EP4CE10E22C8```. Para mayor comodidad, busque el nombre en la casilla  ```Name filter``` y, por último, seleccione en el panel  ```Available devices``` dicha reerencia.
 
-   ![proyectWizard](/pics/lab02/f3.png) 
+   ![proyectWizard](/pics/lab02/device.png) 
 
 
 * **EDA Tool Settings**: Espeficar la herramienta de simulación que se va a utilizar, se recomiendan  ```ModelSim```  o ```Questa```. 
