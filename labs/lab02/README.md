@@ -1,4 +1,4 @@
-# Laboratorio 2: Introducción al diseño digital.
+# Laboratorio 2: Reto 1 - Medidor de carga
 
 
 ### Objetivos de aprendizaje
