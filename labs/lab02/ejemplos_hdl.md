@@ -6,7 +6,7 @@
 <img src="/pics/lab02/on_off.png" alt="alt text" width=800 >
 </p>
 
-Código:
+Descripción HDL:
 
 ```
 module on_off (
@@ -25,7 +25,7 @@ endmodule
 <img src="/pics/lab02/not_gate.png" alt="alt text" width=800 >
 </p>
 
-Código:
+Descripción HDL:
 
 ```
 module not_gate (
