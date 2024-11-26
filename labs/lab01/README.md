@@ -30,7 +30,7 @@ su circuito equivalente, tiempo de respuesta, entre otros.
 2. Determinar el circuito equivalente para cada uno de los dispositivos.
 3. Aplicar una señal cuadrada de 1 KHz de tensión adecuada para medir: $V_{out}$ vs $V_{in}$ y a partir de estos gráficos Determinar
    $V_{IH}$, $V_{IL}$, $V_{OH}$, $V_{OL}$.
-4. Medir el tiempo de subida (tr), tiempo de bajada (tf), tiempo de retardo (tphl y tplh), tiempo de almacenamiento para cada dispositivo.
+4. Medir el tiempo de subida ($t_r$), tiempo de bajada ($t_f$), tiempo de retardo ($t_{phl}$ y $t_{plh}$) para cada dispositivo.
 
 ### Parte 2
 
@@ -40,9 +40,9 @@ su circuito equivalente, tiempo de respuesta, entre otros.
 
 ### Parte 3
 
-1. Estudie el oscilador en anillo basado en la compuerta NOT
+1. Estudie el oscilador en anillo basado en la compuerta NOT.
 ![ring-osc](./ring-osc.svg)
-2. Monte dos diferentes osciladores en anillo con el negador CMOS
+2. Monte dos osciladores diferentes en anillo con el negador CMOS.
 3. Observe de cada uno de ellos la forma de onda como su frecuencia de oscilación
 4. Realice una comparación entre ambos osciladores según lo observado
 
