@@ -17,16 +17,18 @@
 
 ## Objetivos de aprendizaje
 
-- Comprender los principios básicos de la lógica digital, como puertas lógicas, decodificadores y sumadores, y cómo estos se implementan en una FPGA. 
-- Construir e instanciar módulos en HDL para implementar un sistema completo en FPGA.
-- Aprender a verificar el funcionamiento del diseño en un entorno de simulación antes de implementar en *hardware*.
+- Comprender los principios fundamentales de la lógica digital, como puertas lógicas, sumadores y decodificadores, y cómo estos se implementan en *hardware*. 
+- Diseñar, construir e instanciar módulos utilizando lenguajes de descripción de *hardware* (HDL)
+- Familiarizarse con el flujo completo de diseño e implementación en *hardware*, desde la especificación inicial hasta la síntesis e implementación en FPGA.
+- Aprender a verificar y validar el funcionamiento del diseño en un entorno de simulación, identificando y corrigiendo errores antes de la implementación física en *hardware*.
+- Explorar la implementación de diseños digitales en FPGAs.
 
 
 ## Planteamiento del problema
 
 ### Monitoreo del estado de carga de una batería.
 
-Se requiere implementar un sistema que de aviso del nivel de carga de un banco de baterías que cuenta con dos baterías. El nivel de carga total del banco está dado por la suma del nivel de carga de cada batería.
+Se requiere diseñar e implementar un sistema  de monitoreo que supervise el nivel de carga de un banco de baterías compuesto por dos baterías. El nivel de carga total del banco está dado por la suma del nivel de carga de cada batería.
 
 Estas baterías cuentan cada una con un sensor de tensión que entrega valores decimales entre 0 y 15 en sistema binario, dependiendo del nivel de carga de cada una, donde: 
 
@@ -42,7 +44,7 @@ Estas baterías cuentan cada una con un sensor de tensión que entrega valores d
 
 **3. Otros niveles de carga:** Se debe agregar al sistema otros indicadores para informar niveles de carga de interés, por ejemplo, nivel aceptable, regular y crítico.
 
-**4. Implementación modular:** El diseño completo debe constar de varios módulos para hacer el sistema escalable y claro. Queda a consideración de cada grupo cómo dividir cada unas de las partes del diseño y cómo integrarlas.
+**4. Implementación modular escalable:** El diseño completo debe constar de varios módulos para hacer el sistema escalable y claro, lo que facilitará también su validación y verificación. Cada grupo tendrá la libertad de decidir cómo organizar y conectar los módulos.
 
 
 **Se recomienda consultar la documentación de apoyo**.
