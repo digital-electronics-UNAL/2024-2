@@ -18,8 +18,8 @@
 ## Objetivos de aprendizaje
 
 - Comprender los principios básicos de la lógica digital, como puertas lógicas, decodificadores y sumadores, y cómo estos se implementan en una FPGA. 
-- Construir e instanciar módulos en Verilog para implementar un sistema completo en FPGA.
-- Aprender a verificar el funcionamiento del diseño en un entorno de simulación antes de implementar en hardware.
+- Construir e instanciar módulos en HDL para implementar un sistema completo en FPGA.
+- Aprender a verificar el funcionamiento del diseño en un entorno de simulación antes de implementar en *hardware*.
 
 
 ## Planteamiento del problema
@@ -30,19 +30,19 @@ Se requiere implementar un sistema que de aviso del nivel de carga de un banco d
 
 Estas baterías cuentan cada una con un sensor de tensión que entrega valores decimales entre 0 y 15 en sistema binario, dependiendo del nivel de carga de cada una, donde: 
 
-0000 (0)  ---> Batería completamente descargada.
+0 (```4'b0000```)  ---> Batería completamente descargada.
 
-1111 (15) ---> Batería Completamente cargada.
+15 (```4'b1111```) ---> Batería completamente cargada.
 
-## Requisitos funcionales.
+## Requisitos funcionales
 
-**1. Detección de baterías descargadas:** Si una de las baterías tiene una carga de 0 (0000), debe generarse una señal de advertencia para así poderla atender.
+**1. Detección de baterías descargadas:** Si una de las baterías tiene una carga de 0 (```4'b0000```), debe generarse una señal de advertencia para así poderla atender.
 
 **2. Aviso de carga crítica:** Si la carga total del banco de baterías es igual o menor que el 10% de la carga máxima, se debe activar una señal de advertencia, ya sea visual, auditiva o ambas.
 
-**3. Otros niveles de carga:** Queda a consideración de cada grupo proponer cuando el nivel de carga del banco está en un nivel moderado y suficiente y asi mismo generar una alerta visual diferente para cada uno. 
+**3. Otros niveles de carga:** Se debe agregar al sistema otros indicadores para informar niveles de carga de interés, por ejemplo, nivel aceptable, regular y crítico.
 
-**4. Implementación modular:** El diseño se debe dividir en varios módulos para organizar el código y hacer el sistema escalable y claro. Queda a consideración de cada grupo cómo dividir las funcionalidades del diseño.
+**4. Implementación modular:** El diseño completo debe constar de varios módulos para hacer el sistema escalable y claro. Queda a consideración de cada grupo cómo dividir cada unas de las partes del diseño y cómo integrarlas.
 
 
 **Se recomienda consultar la documentación de apoyo**.
