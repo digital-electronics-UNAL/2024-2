@@ -11,11 +11,13 @@ Profesores:
 
 ## Laboratorios:
 
+### Metodología
+
 ### Cronograma
 
-Semana   | Nombre   | Guía  | Entrega | *Deadline* 
+Semana   | Nombre   | Guía  | Entrega (Github Classroom) | *Deadline* 
 --       | --     | --            	| -- | --   
- 1 | lab00: Instalación de herramientas | [lab00](/labs/lab00/README.md) | |
- 2 | lab01: Comparación de tecnologías CMOS vs TTL | [lab01](/labs/lab01/README.md) | |
- 3 | lab02: Medidor de carga - Banco de baterías | [lab02](/labs/lab02/README.md) | |
+ 1-2 | Instalación de herramientas | [lab00](/labs/lab00/README.md) | |
+ 3-4 | Comparación de tecnologías CMOS vs TTL | [lab01](/labs/lab01/README.md) | | 25 - 29 Nov/2024
+ 5-6 |  Medidor de carga - Banco de baterías | [lab02](/labs/lab02/README.md) | | 15 - 20 Dic/2024
  
