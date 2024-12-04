@@ -12,7 +12,7 @@
 
 **Digital** es un simulador de circuitos digitales escrito en Java e inspirada por [Logisim](http://www.cburch.com/logisim/). Entre sus principales funcionalidades están:
 
-### 1. Diseño y Simulación de Circuitos Lógicos
+#### 1. Diseño y Simulación de Circuitos Lógicos
 
 * Creación de circuitos utilizando puertas lógicas (AND, OR, NOT, XOR, NAND, NOR).
 
@@ -24,11 +24,11 @@
 
 * Personalización de entradas y salidas (interruptores, botones, LEDs, displays).
 
-### 2. Exportación y generación de HDL
+#### 2. Exportación y generación de HDL
 
 * Generación automática de código HDL (como VHDL o Verilog) a partir del diseño del circuito.
 
-### 3. Herramientas de análisis y depuración
+#### 3. Herramientas de análisis y depuración
 
 * Simulación paso a paso: Permite analizar cómo fluye la información en el circuito.
     
@@ -36,7 +36,7 @@
     
 * Uso de sondas para monitorear valores en nodos específicos.
 
-### 4. Componentes predefinidos y personalizables
+#### 4. Componentes predefinidos y personalizables
 
 * Uso de componentes básicos (multiplexores, demultiplexores, codificadores, decodificadores).
     
