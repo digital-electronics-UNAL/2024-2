@@ -17,12 +17,18 @@
 
 ## Objetivos de aprendizaje
 
-- Comprender los principios fundamentales de la lógica digital, como puertas lógicas, sumadores y decodificadores, y cómo estos se implementan en *hardware*. 
+- Diseñar y construir sistemas digitales basados en lógica combinacional, enfocándose en la implementación de sumadores y otros bloques lógicos que operan en función de las entradas actuales, sin depender de estados previos.
+- Comprender los principios fundamentales de la lógica digital, como puertas lógicas y sumadores, y cómo estos se implementan en *hardware*. 
 - Diseñar, construir e instanciar módulos utilizando lenguajes de descripción de *hardware* (HDL)
 - Familiarizarse con el flujo completo de diseño e implementación en *hardware*, desde la especificación inicial hasta la síntesis e implementación en FPGA.
 - Aprender a verificar y validar el funcionamiento del diseño en un entorno de simulación, identificando y corrigiendo errores antes de la implementación física en *hardware*.
 - Explorar la implementación de diseños digitales en FPGAs.
 
+## Introducción
+
+El objetivo de este laboratorio es diseñar e implementar un sistema de monitoreo de carga de un banco de baterías, utilizando lógica combinacional para procesar los niveles de carga de cada batería y generar señales de advertencia según criterios específicos. A lo largo de este proceso, se utilizarán lenguajes de descripción de hardware (HDL) para modelar el comportamiento del sistema y se implementarán diferentes niveles de abstracción (estructural y comportamental) en el diseño de los circuitos lógicos.
+
+El sistema debe ser capaz de detectar el estado de carga de cada batería y generar señales de advertencia en función de los niveles de carga específicos. Para ello, se diseñarán sumadores y otros componentes lógicos que sumen los niveles de carga de las baterías y evalúen los criterios de advertencia establecidos.
 
 ## Planteamiento del problema
 
