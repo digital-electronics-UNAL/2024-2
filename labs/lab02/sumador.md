@@ -63,7 +63,7 @@ El sumador de 1 bit toma tres entradas: los dos bits que se desean sumar (```A``
 
 A continuación se presenta la tabla de verdad del sumador completo de 1 bit.
 
-<div style="text-align: center;">
+<p align="center">
   <table>
     <tr>
       <th>A</th>
@@ -129,7 +129,8 @@ A continuación se presenta la tabla de verdad del sumador completo de 1 bit.
       <td><strong>1</strong></td>
     </tr>
   </table>
-</div>
+</p>
+
 
 
 
