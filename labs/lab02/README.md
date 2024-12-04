@@ -63,7 +63,7 @@ Estas baterías cuentan cada una con un sensor de tensión que entrega valores d
 
 ## Documentación de apoyo necesaria 
 
-1. [Tutorial de implementación en la FPGA Cyclone IV](/labs/lab02/proyectoQuartus.md)
-2. [Ejemplos de implementaciones en HDL](/labs/lab02/ejemplos_hdl.md) 
+1. [Tutorial de implementación en la FPGA Cyclone IV](/labs/lab00/proyectoQuartus.md)
+
 3. [Sumador de 1 bit y sumador de 4 bits](/labs/lab02/sumador.md)
 
