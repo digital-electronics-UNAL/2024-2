@@ -94,7 +94,7 @@
 
     *  Desde la terminal:
 
-        Gracias al enlace simbólico creado en ```/usr/local/bin```, se puede simplemente escribir el siguiente comando en la terminal para ejecutar Digital:
+        Gracias al enlace simbólico creado en ```/usr/local/bin```, se puede simplemente escribir el siguiente comando en la terminal para ejecutar ***Digital***:
 
         ```
         Digital.sh
@@ -104,6 +104,6 @@
 
 ## Documentación
 
-1. El repositorio de **Digital** es un proyecto de código abierto que se encuentra en [GitHub Digital](https://github.com/hneemann/Digital?tab=readme-ov-file).
+1. El repositorio de ***Digital*** es un proyecto *open source* que se encuentra en [GitHub *Digital*](https://github.com/hneemann/Digital?tab=readme-ov-file).
 
 2. [Documentación en español](/docs/simulador_digital_espanol.pdf).
