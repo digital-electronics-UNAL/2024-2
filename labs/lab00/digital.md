@@ -1,4 +1,4 @@
-# Digital - Simulador de circuitos
+# *Digital* - Simulador de circuitos
 
 1. [Breve descripción](#breve-descripción)
 
@@ -10,7 +10,7 @@
 
 ## Breve descripción
 
-**Digital** es un simulador de circuitos digitales escrito en Java e inspirada por [Logisim](http://www.cburch.com/logisim/). Entre sus principales funcionalidades están:
+***Digital*** es un simulador de circuitos digitales escrito en Java e inspirada por [Logisim](http://www.cburch.com/logisim/). Entre sus principales funcionalidades están:
 
 #### 1. Diseño y Simulación de Circuitos Lógicos
 
@@ -49,7 +49,7 @@
 
 1. Verifique si tiene instalado Java.
 
-    **Digital** depende de Java, por lo que primero se debe instalar una versión compatible. 
+    ***Digital*** depende de Java, por lo que primero se debe instalar una versión compatible. 
 
     ```
     java -version
@@ -70,13 +70,13 @@
     ```
 
 
-4. Descargue el paquete **Digital** desde GitHub:
+4. Descargue el paquete ***Digital*** desde GitHub:
 
     ```
     wget -O digital.zip https://github.com/hneemann/Digital/releases/latest/download/Digit
     ```
 
-5. Descomprima el archivo y ejecute el *script* de instalación incluido en **Digital**:
+5. Descomprima el archivo y ejecute el *script* de instalación incluido en ***Digital***:
 
     ```
     unzip digital.zip
@@ -84,13 +84,13 @@
     ./install.sh
     ```
 
-6. Cree un enlace simbólico en ```/usr/local/bin``` para ejecutar **Digital** fácilmente desde cualquier directorio:
+6. Cree un enlace simbólico en ```/usr/local/bin``` para ejecutar ***Digital*** fácilmente desde cualquier directorio:
 
     ```
     sudo ln -sr ./Digital.sh $LBIN/Digital.sh
     ```
 
-7. Finalmente ejectute **Digital**:
+7. Finalmente ejectute ***Digital***:
 
     *  Desde la terminal:
 
@@ -100,7 +100,7 @@
         Digital.sh
         ```
 
-    * Algunos entornos de escritorio, como GNOME o KDE, escanean los directorios como ```/usr/local/bin``` o ```/usr/bin``` para detectar aplicaciones que puedan estar disponibles en el sistema. Dado que, gracias al paso **6**,  ```Digital.sh``` se encuentra en uno de estos directorios, el entorno gráfico puede generar automáticamente un acceso directo en el menú de aplicaciones, en otras palabras, se puede encontrar **Digital** en el menú de aplicaciones del SO.
+    * Algunos entornos de escritorio, como GNOME o KDE, escanean los directorios como ```/usr/local/bin``` o ```/usr/bin``` para detectar aplicaciones que puedan estar disponibles en el sistema. Dado que, gracias al paso **6**,  ```Digital.sh``` se encuentra en uno de estos directorios, el entorno gráfico puede generar automáticamente un acceso directo en el menú de aplicaciones, en otras palabras, se puede encontrar ***Digital*** en el menú de aplicaciones del SO.
 
 ## Documentación
 
