@@ -46,15 +46,18 @@
 
 ## Instalación
 
-**Digital** depende de Java, por lo que primero se debe instalar una versión compatible. 
 
-1. Verifique si tiene instalado Java:
+1. Verifique si tiene instalado Java.
+
+    **Digital** depende de Java, por lo que primero se debe instalar una versión compatible. 
 
     ```
     java -version
     ```
 
-2. Instale la versión LTS, para el momento de realización del presente tutorila es Java 11
+    En caso de que ya cuente con una versión LTS de Java, continue con el paso **4**.
+
+2. Instale la versión LTS, para el momento de realización del presente tutorial es Java 11
 
     ```
     sudo apt install openjdk-11-jdk -y
@@ -73,7 +76,7 @@
     wget -O digital.zip https://github.com/hneemann/Digital/releases/latest/download/Digit
     ```
 
-5. Descomprima el archivo y ejecture el *script* de instalación incluido en **Digital**:
+5. Descomprima el archivo y ejecute el *script* de instalación incluido en **Digital**:
 
     ```
     unzip digital.zip
