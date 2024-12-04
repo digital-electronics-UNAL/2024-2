@@ -37,7 +37,7 @@ Existen dos enfoques principales para implementar circuitos combinacionales en H
     * Representa la arquitectura del circuito a un nivel bajo, muy cercano al *hardware* real.
 
 
-  * **Implementación comportamental**:
+* **Implementación comportamental**:
            
       En la implementación basada en comportamiento o implementación de alto nivel se utiliza un enfoque más abstracto para describir el comportamiento del circuito en lugar de utilizar puertas lógicas primitivas. Este tipo de implementación se enfoca en especificar qué se debe hacer, más que en cómo se hace a nivel de *hardware*. En este caso, este enfoque simplifica la descripción del comportamiento del sumador al evitar el detalle de las puertas lógicas primitivas, facilitando así la comprensión y la mantenibilidad del código.
 
