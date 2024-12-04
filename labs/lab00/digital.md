@@ -100,7 +100,7 @@
         Digital.sh
         ```
 
-    * Algunos entornos de escritorio, como GNOME o KDE, escanean los directorios como ```/usr/local/bin``` o ```/usr/bin``` para detectar aplicaciones que puedan estar disponibles en el sistema. Dado que, gracias al paso **6**,  ```Digital.sh``` se encuentra en uno de estos directorios, el entorno gráfico puede generar automáticamente un acceso directo en el menú de aplicaciones, en otras palabras, se puede encontrar Digital en el menú de aplicaciones del SO.
+    * Algunos entornos de escritorio, como GNOME o KDE, escanean los directorios como ```/usr/local/bin``` o ```/usr/bin``` para detectar aplicaciones que puedan estar disponibles en el sistema. Dado que, gracias al paso **6**,  ```Digital.sh``` se encuentra en uno de estos directorios, el entorno gráfico puede generar automáticamente un acceso directo en el menú de aplicaciones, en otras palabras, se puede encontrar **Digital** en el menú de aplicaciones del SO.
 
 ## Documentación
 

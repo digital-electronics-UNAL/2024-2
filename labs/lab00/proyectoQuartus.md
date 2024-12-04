@@ -1,4 +1,4 @@
-# Tutorial de Implementación en la FPGA Cyclone IV usando Quartus Prime lite
+# Tutorial de implementación en la FPGA Cyclone IV usando Quartus Prime lite
 
 Índice:
 
