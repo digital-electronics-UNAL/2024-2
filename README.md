@@ -15,9 +15,45 @@ Profesores:
 
 ### Cronograma
 
-Semana   | Nombre   | Guía  | Entrega (Github Classroom) | *Deadline* 
---       | --     | --            	| -- | --   
- 1-2 | Instalación de herramientas | [lab00](/labs/lab00/README.md) | |
- 3-4 | Comparación de tecnologías CMOS vs TTL | [lab01](/labs/lab01/README.md) | | 25 - 29 Nov/2024
- 5-6 |  Medidor de carga - Banco de baterías | [lab02](/labs/lab02/README.md) | | 15 - 20 Dic/2024
- 
+<table>
+  <tr>
+    <th>Semana</th>
+    <th>Nombre</th>
+    <th>Guía</th>
+    <th colspan="2">Entrega (GitHub Classroom)</th>
+    <th>Deadline</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Grupos 1 & 2</th>
+    <th>Grupos 5 & 6</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>1-2</td>
+    <td>Instalación de herramientas</td>
+    <td><a href="/labs/lab00/README.md">lab00</a></td>
+    <td><a href="#"> </a></td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>3-4</td>
+    <td>Comparación de tecnologías CMOS vs TTL</td>
+    <td><a href="/labs/lab01/README.md">lab01</a></td>
+    <td><a href="#">Link</a></td>
+    <td><a href="https://classroom.github.com/a/amNlXUtF">Link</a></td>
+    <td>25 - 29 Nov/2024</td>
+  </tr>
+  <tr>
+    <td>5-6</td>
+    <td>Medidor de carga - Banco de baterías</td>
+    <td><a href="/labs/lab02/README.md">lab02</a></td>
+    <td><a href="#">Link </a></td>
+    <td><a href="#">Link </a></td>
+    <td>15 - 20 Dic/2024</td>
+  </tr>
+</table>
+
