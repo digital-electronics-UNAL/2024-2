@@ -43,7 +43,7 @@ Profesores:
     <td>3-4</td>
     <td>Comparación de tecnologías CMOS vs TTL</td>
     <td><a href="/labs/lab01/README.md">lab01</a></td>
-    <td><a href="#">Link</a></td>
+    <td><a href="https://classroom.github.com/a/ZbQgHL-m">Link</a></td>
     <td><a href="https://classroom.github.com/a/amNlXUtF">Link</a></td>
     <td>25 - 29 Nov/2024</td>
   </tr>
