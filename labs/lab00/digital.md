@@ -2,7 +2,7 @@
 
 1. [Breve descripción](#breve-descripción)
 
-2. [Intalación](#instalación)
+2. [Instalación](#instalación)
 
 3. [Documentación](#documentación)
 
