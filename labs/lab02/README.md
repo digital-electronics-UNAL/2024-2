@@ -65,7 +65,7 @@ Estas baterías cuentan cada una con un sensor de tensión que entrega valores d
 
 3. Realice la respectiva simulación a la solución planteada y muestre evidencias en su archivo ```README.md```.
 
-4. Implemente la descripción HDL en la tarjeta de desarrollo, empleando la ```IDE Quartus``` y muestre en el laboratorio el funcionamiento, empleando los periféricos que requiera. 
+4. Implemente la descripción HDL en la tarjeta de desarrollo, empleando la ```IDE Quartus``` y muestre en el laboratorio el funcionamiento, empleando los periféricos que requiera. Para lograr este entregable es necesario revisar la siguiente [documentación](/labs/lab00/proyectoQuartus.md).
 
 ## Documentación de apoyo necesaria 
 
