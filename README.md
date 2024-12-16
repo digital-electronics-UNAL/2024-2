@@ -31,9 +31,9 @@ El laboratorio de Electrónica Digital I tiene como objetivo principal complemen
 
     * Introducción a la práctica:
 
-      El profesor brindará una breve explicación sobre los objetivos y la metodología a emplear en la práctica.
+      * El profesor brindará una breve explicación sobre los objetivos y la metodología a emplear en la práctica.
 
-      Se resolverán dudas iniciales de los estudiantes.
+      * Se resolverán dudas iniciales de los estudiantes.
 
     * Desarrollo de la actividad:
 
@@ -43,7 +43,9 @@ El laboratorio de Electrónica Digital I tiene como objetivo principal complemen
 
     * Validación de resultados:
 
-      Los estudiantes deberán registrar simulaciones, diagramas, códigos y observaciones relevantes durante la práctica.
+      * Durante la práctica, los estudiantes deberán realizar y documentar todas las pruebas necesarias para validar el correcto funcionamiento de su diseño. Esto incluye la captura de simulaciones, generación de diagramas y análisis de datos relevantes.
+
+      * Deberán identificar discrepancias entre los resultados obtenidos y los esperados, planteando posibles causas y soluciones. Esta información será clave para enriquecer el análisis en el informe final.
 
 3. **Documentación y entrega de resultados**
 
