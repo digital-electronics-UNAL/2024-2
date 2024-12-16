@@ -1,4 +1,4 @@
-# Laboratorio 2: Reto 1 - Medidor de carga.
+# Laboratorio 2: Medidor de carga.
 
 Índice:
 
@@ -46,7 +46,7 @@ Estas baterías cuentan cada una con un sensor de tensión que entrega valores d
 
 **1. Detección de baterías descargadas:** Si una de las baterías tiene una carga de 0 (```4'b0000```), debe generarse una señal de advertencia para así poderla atender.
 
-**2. Aviso de carga crítica:** Si la carga total del banco de baterías es igual o menor que el 10% de la carga máxima, se debe activar una señal de advertencia, ya sea visual, auditiva o ambas.
+**2. Aviso de carga crítica:** Si la carga total del banco de baterías es igual o menor que el 10% de la carga máxima, se debe activar una señal de advertencia, ya sea visual, auditiva o ambas. Para cumplir este requisito es necesario revisar la siguiente [documentación](/labs/lab02/sumador.md).
 
 **3. Otros niveles de carga:** Se debe agregar al sistema otros indicadores para informar niveles de carga de interés, por ejemplo, nivel aceptable, regular y crítico.
 
@@ -71,5 +71,5 @@ Estas baterías cuentan cada una con un sensor de tensión que entrega valores d
 
 1. [Tutorial de implementación en la FPGA Cyclone IV](/labs/lab00/proyectoQuartus.md)
 
-3. [Sumador de 1 bit y sumador de 4 bits](/labs/lab02/sumador.md)
+2. [Sumador de 1 bit y sumador de 4 bits](/labs/lab02/sumador.md)
 
