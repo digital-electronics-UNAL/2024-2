@@ -51,7 +51,7 @@ El laboratorio de Electrónica Digital I tiene como objetivo principal complemen
 
       Cada grupo debe redactar un informe técnico que incluya:
 
-      * Descripción de la metodología empleada y del diseño realizado.
+      * Descripción de la metodología empleada y del diseño realizado, acompañado de diagramas que permitan explicar gráficamente el diseño implementado. 
 
       * Resultados obtenidos (cálculos, simulaciones, mediciones, etc.).
 
