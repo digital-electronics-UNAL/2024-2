@@ -161,7 +161,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
   <tr>
     <td>7-8</td>
     <td>Visualización del nivel de carga</td>
-    <td><a href="/labs/lab03/README.md">lab02</a></td>
+    <td><a href="/labs/lab03/README.md">lab03</a></td>
     <td><a href="#">Link </a></td>
     <td><a href="https://classroom.github.com/a/Jtaa3YmS">Link </a></td>
     <td>15 - 20 Dic/2024</td>
