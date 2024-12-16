@@ -1,17 +1,22 @@
 # Electrónica Digital I - 2024-2
 
+Índice: 
+  1. [Introducción](#introducción)
+  2. [Metodología](#metodología)
+  3. [Cronograma](#cronograma)
+
+## Introducción 
+
 Bienvenidos al laboratorio de Electrónica Digital 1.
 
 Profesores:
 
+* [Jhon Alexander Ramírez Martinez](https://github.com/jharamirezma) &rarr; Grupos del SIA 1 y 2
+* [Johnny Germán Cubides Castro](https://github.com/johnnycubides) &rarr; Grupos del SIA 3 y 4
+* [Diana Natali Maldonado Ramírez](https://github.com/DianaNatali) &rarr; Grupos del SIA 5 y 6
 
-* Jhon Alexander Ramírez Martinez &rarr; Grupos del SIA 1 y 2
-* Johnny Germán Cubides Castro &rarr; Grupos del SIA 3 y 4
-* Diana Natali Maldonado Ramírez &rarr; Grupos del SIA 5 y 6
 
-## Laboratorios:
-
-### Metodología
+## Metodología
 
 El laboratorio de Electrónica Digital I tiene como objetivo principal complementar los conceptos teóricos impartidos en clase magistral mediante actividades prácticas que permitan a los estudiantes desarrollar competencias en diseño e implementación de circuitos digitales. A continuación, se describe la metodología a seguir durante el curso:
 
@@ -111,7 +116,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
 
 
 
-### Cronograma
+## Cronograma
 
 <table>
   <tr>
@@ -147,6 +152,14 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
   </tr>
   <tr>
     <td>5-6</td>
+    <td>Medidor de carga - Banco de baterías</td>
+    <td><a href="/labs/lab02/README.md">lab02</a></td>
+    <td><a href="#">Link </a></td>
+    <td><a href="https://classroom.github.com/a/Jtaa3YmS">Link </a></td>
+    <td>15 - 20 Dic/2024</td>
+  </tr>
+  <tr>
+    <td>7-8</td>
     <td>Medidor de carga - Banco de baterías</td>
     <td><a href="/labs/lab02/README.md">lab02</a></td>
     <td><a href="#">Link </a></td>
