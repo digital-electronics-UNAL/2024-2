@@ -113,5 +113,5 @@ Por lo tanto, se debe realizar una multiplexación entre los ánodos de cada dis
 A continuación se muestra el diagrama estructural de esta implementación:
 
 <p align="center">
- <img src="/pics/lab03/displays1.jpeg" width=500 height=400>
+ <img src="/pics/lab03/displays1.jpeg" width=600 height=500>
 </p> 
