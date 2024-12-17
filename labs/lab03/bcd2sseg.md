@@ -59,11 +59,6 @@ En las siguientes figuras se muestra cómo se distribuyen los 7 segmentos en el 
  <img src="https://exploreembedded.com/wiki/images/1/1a/0SevenSegment.gif" alt="alt text" width=400 >
 </p>
 
-<p align="center">
- <img src="/pics/lab03/7segments.png" width=350 >
-</p> -->
-
-
 
 ### Primera parte: Diseño BCD a 7seg
 
