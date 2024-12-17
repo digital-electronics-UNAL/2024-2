@@ -164,7 +164,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td><a href="/labs/lab03/README.md">lab03</a></td>
     <td><a href="#">Link </a></td>
     <td><a href="https://classroom.github.com/a/Jtaa3YmS">Link </a></td>
-    <td>15 - 20 Dic/2024</td>
+    <td>20 - 24 Ene/2025</td>
   </tr>
 </table>
 
