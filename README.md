@@ -138,7 +138,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>1-2</td>
     <td>Instalación de herramientas</td>
     <td><a href="/labs/lab00/README.md">lab00</a></td>
-    <td><a href="#"> </a></td>
+    <td>-</td>
     <td>-</td>
     <td>-</td>
   </tr>
