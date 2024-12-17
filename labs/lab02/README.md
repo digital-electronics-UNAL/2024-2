@@ -10,7 +10,7 @@
 
 4. [Entregables](#entregables)
 
-5. [Documentación de apoyo](#documentación-de-apoyo)
+5. [Documentación de apoyo](#documentación-de-apoyo-necesaria)
 
 *******
 
