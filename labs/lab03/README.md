@@ -58,10 +58,6 @@ El problema radica en cómo implementar una solución que tome el resultado en B
 
 7. **Implementación modular escalable:** El diseño completo debe constar de varios módulos para hacer el sistema escalable y claro, lo que facilitará también su validación y verificación. Cada grupo tendrá la libertad de decidir cómo organizar y conectar los módulos.
 
-# Decodificador BCD a 7 segmentos
-
-El objetivo de este laboratorio es visualizar el resultado de un sumador de 4 bits en los display 7 segmentos que vienen en la tarjeta de desarrollo.
-
 ## Entregables
 
 1. Realice la descripción de la solución a la problemática planteada de acuerdo a las indicaciones que se darán en la clase de laboratorio.
