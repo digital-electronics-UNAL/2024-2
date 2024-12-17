@@ -17,7 +17,7 @@
 
 # Objetivos de aprendizaje
 
-1. Integrar dispositivos de visualización robusto en un sistema digital, a través de la implementación el circuito  del decodificador para lograr una visualización en los display 7 de segmentos.
+1. Integrar dispositivos de visualización robustos en un sistema digital, a través de la implementación de un decodificador para lograr dicha visualización en los displays de 7 segmentos.
 2. Implementar conversiones entre formatos binarios y BCD.
 3. Introducir el concepto de lógica secuencial y determinar las diferencias con la lógica combinacional.
 4. Integrar dispositivos de visualización en un sistema digital.
