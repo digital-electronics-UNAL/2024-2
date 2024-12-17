@@ -99,7 +99,7 @@ ero en la mayoría de los casos, los 7 pines de los ánodos de cada LED están i
 En la parte 1 se visualizaba el número en un sólo display de 7 segmentos. Pero en la mayoría de los casos, los 7 pines de los ánodos de cada LED están interconectados entre cada display, como se observa en la siguientes figuras:
 
 <p align="center">
- <img src="/pics/lab03/7segments.png" width=500 height=400>
+ <img src="/pics/lab03/7segments.png" width=500 height=300>
 </p> 
 
 <p align="center">
