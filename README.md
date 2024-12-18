@@ -1,9 +1,10 @@
 # Electrónica Digital I - 2024-2
 
 Índice: 
-  1. [Introducción](#introducción)
-  2. [Metodología](#metodología)
-  3. [Cronograma](#cronograma)
+- [Electrónica Digital I - 2024-2](#electrónica-digital-i---2024-2)
+  - [Introducción](#introducción)
+  - [Metodología](#metodología)
+  - [Cronograma](#cronograma)
 
 ## Introducción 
 
@@ -154,7 +155,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>5-6</td>
     <td>Medidor de carga - Banco de baterías</td>
     <td><a href="/labs/lab02/README.md">lab02</a></td>
-    <td><a href="#">Link </a></td>
+    <td><a href="https://classroom.github.com/a/SOFmPiIk">Link </a></td>
     <td><a href="https://classroom.github.com/a/iMzgKtWA">Link </a></td>
     <td>15 - 20 Dic/2024</td>
   </tr>
