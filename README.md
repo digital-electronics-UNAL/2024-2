@@ -156,7 +156,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>Medidor de carga - Banco de baterías</td>
     <td><a href="/labs/lab02/README.md">lab02</a></td>
     <td><a href="https://classroom.github.com/a/SOFmPiIk">Link </a></td>
-    <td><a href="https://classroom.github.com/a/DEehV6qx">Link </a></td>
+    <td><a href="https://classroom.github.com/a/4fil300Z">Link </a></td>
     <td>15 - 20 Dic/2024</td>
   </tr>
   <tr>
