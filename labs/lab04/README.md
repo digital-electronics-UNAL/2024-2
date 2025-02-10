@@ -81,7 +81,7 @@ Con este material deben hacer lo siguiente:
 
 2. Implementar el diseño en la tarjeta de desarrollo **Altera Cyclone IV** utilizando los archivos proporcionados, siguiendo estas instrucciones:
 
-    1. En la tarjeta de desarrollo existe un *header* para pantallas LCD 16x2 o 128x64, allí deben conectar la pantalla asegurandose de que el pin 1 marcado en la PCB de la pantalla coincida con el pin 1 marcado en la PCB de la tarjeta, como se muestra en la siguiente figura:
+    1. En la tarjeta de desarrollo existe un *header* para pantallas LCD 16x2 o 128x64, allí deben conectar la pantalla asegurandose de que el pin 1 marcado en la PCB de la pantalla coincida con el pin 1 marcado en la PCB de la tarjeta. En la siguiente figura se muestra la ubicación del *header* y otros elementos asociados a la configuración física de la pantalla LCD:
 
     <p align="center">
     <img src="/pics/lab04/ALTERA_LCD.png" alt="alt text" width=500 >
