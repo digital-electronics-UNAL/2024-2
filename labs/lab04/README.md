@@ -27,12 +27,65 @@ Sin embargo, el control de una LCD 16x2 implica una secuencia precisa de comando
 A conitnuación se presenta una introducción a las características básicas de la pantalla
 LCD:
 
+
+LCD significa "Pantalla de Cristal Líquido" (Liquid Crystal Display). El nombre LCD 16×2 se debe a que tiene 16 columnas y 2 filas. Existen varias configuraciones como 8×1, 8×2, 10×2, 16×1, entre otras, pero la más utilizada es la 16×2. Esto significa que puede mostrar 32 caracteres en total, donde cada carácter está compuesto por una matriz de 5×8 píxeles, como se muesta en la siguiente figura:
+
+<p align="center">
+ <img src="/pics/lab04/LCD16x2_diag.jpg" alt="alt text" width=500 >
+</p>
+
+**Características del Módulo LCD 16×2:**
+
+* Voltaje de operación: 4.7V a 5.3V
+* Consumo de corriente: 1mA sin retroiluminación
+* Pantalla alfanumérica, permite mostrar letras y números
+* Dos filas, cada una con capacidad para 16 caracteres
+* Cada carácter se construye en una matriz de 5×8 píxeles
+* Puede operar en modo de 8 bits o 4 bits (se usará en modo de 4 bits)
+* Permite mostrar caracteres personalizados
+* Disponible con retroiluminación en color verde o azul
+
+
+La pantalla LCD 16x2 cuenta con múltiples pines para alimentación, control y transferencia de datos. La siguiente lista describe sus funciones principales:
+
 <p align="center">
  <img src="/pics/lab04/LCD16x2.png" alt="alt text" width=500 >
 </p>
-<p align="center">
- Figura 1
-</p>
+
+* **VSS** = GND (Tierra)
+* **VDD** = (+3.3V a +5V) – Alimentación de la pantalla
+* **VO** = Ajuste de contraste 
+* **RS** = Selección de tipo de registro – RS=0: Comando, RS=1: Dato
+* **RW** = Lectura/Escritura (R/W) – R/W=0: Escritura, R/W=1: Lectura
+* **E** = Clock (Enable) – Activado en el flanco de bajada
+* **D0** = Bit 0 – Línea de datos
+* **D1** = Bit 1 – Línea de datos
+* **D2** = Bit 2 – Línea de datos
+* **D3** = Bit 3 – Línea de datos
+* **D4** = Bit 4 – Línea de datos
+* **D5** = Bit 5 – Línea de datos
+* **D6** = Bit 6 – Línea de datos
+* **D7** = Bit 7 – Línea de datos
+* **A** = Ánodo de retroiluminación (+)
+* **K** = Cátodo de retroiluminación (-)
+
+# Procedimiento
+
+## Parte 1
+
+Al aceptar el **assignment** del [Lab04](), clonarán el repositorio correspondiente para la entrega y encontrarán en la carpeta src archivos fuente que contienen la descripción de hardware necesaria para controlar la pantalla LCD 16x2, permitiendo visualizar texto estático en sus dos filas. 
+
+Con este material deben hacer lo siguiente:
+
+1. Analizar la descripción de hardware y diagramar tanto la unidad de control, compuesta por la FSM, como la arquitectura completa.
+
+2. Implementar el diseño en la tarjeta de desarrollo **Altera Cyclone IV** utilizando los archivos proporcionados, siguiendo estas instrucciones:
+
+    1. En la tarjeta de desarrollo existe un *header* para pantallas LCD 16x2 o 128x64, allí deben conectar la pantalla asegurandose de que el pin 1 marcado en la PCB de la pantalla coincida con el pin 1 marcado en la PCB de la tarjeta, como se muestra en la siguiente figura:
+
+    <p align="center">
+    <img src="/pics/lab04/ALTERA_LCD.png" alt="alt text" width=500 >
+    </p>
 
 
 # Requisitos funcionales
