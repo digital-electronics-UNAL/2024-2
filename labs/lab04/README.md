@@ -6,7 +6,7 @@
 
 2. [Introducción](#introducción)
 
-3. [Requisitos funcionales](#requisitos-funcionales)
+3. [Procedimiento](#procedimiento)
 
 4. [Entregables](#entregables)
 
@@ -52,11 +52,11 @@ La pantalla LCD 16x2 cuenta con múltiples pines para alimentación, control y t
  <img src="/pics/lab04/LCD16x2.png" alt="alt text" width=500 >
 </p>
 
-* **VSS** = GND (Tierra)
-* **VDD** = (+3.3V a +5V) – Alimentación de la pantalla
-* **VO** = Ajuste de contraste 
+* **Vss** = GND (Tierra)
+* **Vdd** = (+3.3V a +5V) – Alimentación de la pantalla
+* **Vo** = Ajuste de contraste 
 * **RS** = Selección de tipo de registro – RS=0: Comando, RS=1: Dato
-* **RW** = Lectura/Escritura (R/W) – R/W=0: Escritura, R/W=1: Lectura
+* **R/W** = Lectura/Escritura – R/W=0: Escritura, R/W=1: Lectura
 * **E** = Clock (Enable) – Activado en el flanco de bajada
 * **D0** = Bit 0 – Línea de datos
 * **D1** = Bit 1 – Línea de datos
@@ -69,17 +69,22 @@ La pantalla LCD 16x2 cuenta con múltiples pines para alimentación, control y t
 * **A** = Ánodo de retroiluminación (+)
 * **K** = Cátodo de retroiluminación (-)
 
+
+**Se recomienda revisar en detalle el [*datasheet*](/labs/lab04/lcd016n002bcfhet.pdf) de la LCD 16x2**.
+
 # Procedimiento
 
 ## Parte 1
 
-Al aceptar el **assignment** del [Lab04](), clonarán el repositorio correspondiente para la entrega y encontrarán en la carpeta src archivos fuente que contienen la descripción de hardware necesaria para controlar la pantalla LCD 16x2, permitiendo visualizar texto estático en sus dos filas. 
+Al aceptar el *assignment* del [Lab04](https://github.com/digital-electronics-UNAL/2024-2/tree/main?tab=readme-ov-file#cronograma), clonarán el repositorio correspondiente para la entrega y encontrarán en la carpeta ```src``` archivos fuente que contienen la descripción de hardware necesaria para controlar la pantalla LCD 16x2, permitiendo visualizar texto estático en sus dos filas. 
 
 Con este material deben hacer lo siguiente:
 
-1. Analizar la descripción de hardware y diagramar tanto la unidad de control, compuesta por la FSM, como la arquitectura completa.
+1. Analizar la descripción de hardware y diagramar tanto la unidad de control, compuesta por la FSM, como la arquitectura completa, para lo cual contarán con una explicación proporcionada por el docente de laboratorio.
 
-2. Implementar el diseño en la tarjeta de desarrollo **Altera Cyclone IV** utilizando los archivos proporcionados, siguiendo estas instrucciones:
+2. Realizar la respectiva simulación. El *testbench* lo encuentran en la carpeta ```test``` de su repositorio.
+
+3. Implementar el diseño en la tarjeta de desarrollo **Altera Cyclone IV** utilizando los archivos proporcionados, para lo que deben seguir estas instrucciones:
 
     1. En la tarjeta de desarrollo existe un *header* para pantallas LCD 16x2 o 128x64, allí deben conectar la pantalla asegurandose de que el pin 1 marcado en la PCB de la pantalla coincida con el pin 1 marcado en la PCB de la tarjeta. En la siguiente figura se muestra la ubicación del *header* y otros elementos asociados a la configuración física de la pantalla LCD:
 
@@ -87,22 +92,45 @@ Con este material deben hacer lo siguiente:
     <img src="/pics/lab04/ALTERA_LCD.png" alt="alt text" width=500 >
     </p>
 
+    2. Después de configurar el **Pin Planer** en Quartus, de acuerdo a la tabla en la  PCB de la tarjeta de desarrollo que se muestra en la anterior figura, deben asegurarse de que el ```pin 101``` esté correctamente asignado como una E/S en lugar de su función predeterminada de programación de la siguiente forma:
 
-# Requisitos funcionales
+        1. Ir al menú ```Assignments``` y seleccionar la opción ```Device```.
 
+            <p align="center">
+            <img src="/pics/lab04/101_1.png" alt="alt text" width=500 >
+            </p>
+
+        2. En la ventana ```Device``` dar click en el botón ```Device and Pin Options```.
+
+            <p align="center">
+            <img src="/pics/lab04/101_2.png" alt="alt text" width=500 >
+            </p>
+
+        3. En la ventana ```Device and Pin Options``` escoger, en la lista ```Category```, la opción ```Dual-Purpose Pins``` y en la lista de los pines de doble propósito, cambiar el valor del pin ```nCEO``` a ```Use as regular I/O```.
+
+            <p align="center">
+            <img src="/pics/lab04/101_3.png" alt="alt text" width=500 >
+            </p>
+
+## Parte 2
+
+Una vez comprendida la descripción del hardware y el funcionamiento de la LCD, deberán implementar la lógica necesaria para visualizar texto dinámico, es decir, información que cambia en función de dos entradas (inputs) al módulo de control de la pantalla.
+
+Estas entradas serán valores numéricos de 8 bits y se mostrarán junto al texto estático previamente visualizado. Para ello, se recomienda:
+
+1. Revisar detenidamente el [*datasheet*](/labs/lab04/lcd016n002bcfhet.pdf) de la LCD y determinar las intrucciones necesarias para posicionar el texto dinámico en un cursor posterior a las posiciones ocupadas por el texto estático.
+2. Tener en cuenta que la pantalla recibe los caracteres en su representación hexadecimal del código ASCII.
+
+Teniendo en cuenta estas modificaciones deben volver a realizar los ítems 1, 2 y 3 de la [Parte 1](#parte-1).
 
 ## Entregables
 
-1. Realice la descripción de la solución a la problemática planteada de acuerdo a las indicaciones que se darán en la clase de laboratorio.
+Realice las partes [1](#parte-1) y [2](#parte-2) mencionadas en el procedimiento y presente
+en clase las implementaciones de cada una al docente de laboratorio.
 
-2. Explique el item anterior en su respectivo archivo ```README.md```.
-
-3. Realice la respectiva simulación a la solución planteada y muestre evidencias en su archivo ```README.md```.
-
-4. Implemente la descripción HDL en la tarjeta de desarrollo, empleando la ```IDE Quartus``` y muestre en el laboratorio el funcionamiento, empleando los periféricos que requiera. Para lograr este entregable es necesario revisar la siguiente [documentación](/labs/lab00/proyectoQuartus.md).
 
 ## Documentación de apoyo necesaria 
 
 1. [Tutorial de implementación en la FPGA Cyclone IV](/labs/lab00/proyectoQuartus.md)
 
-2. [¿Cómo escribir máquinas de estado?]()
+2. [¿Cómo escribir máquinas de estado?](/labs/lab04/lcd016n002bcfhet.pdf)
