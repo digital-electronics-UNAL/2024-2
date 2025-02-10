@@ -28,7 +28,7 @@ A conitnuación se presenta una introducción a las características básicas de
 LCD:
 
 <p align="center">
- <img src="/pics/lab04/LCD16x2.png" alt="alt text" width=300 >
+ <img src="/pics/lab04/LCD16x2.png" alt="alt text" width=500 >
 </p>
 <p align="center">
  Figura 1
