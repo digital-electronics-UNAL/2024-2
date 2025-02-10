@@ -15,10 +15,10 @@
 *******
 
 
-# Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 
-# Introducción
+## Introducción
 
 En sistemas embebidos y arquitecturas digitales, la interacción con dispositivos de visualización es esencial para la presentación de información en tiempo real. Entre estos dispositivos, las pantallas LCD alfanuméricas de 16x2 son ampliamente utilizadas debido a su simplicidad y bajo consumo de recursos.
 
@@ -72,9 +72,9 @@ La pantalla LCD 16x2 cuenta con múltiples pines para alimentación, control y t
 
 **Se recomienda revisar en detalle el [*datasheet*](/labs/lab04/lcd016n002bcfhet.pdf) de la LCD 16x2**.
 
-# Procedimiento
+## Procedimiento
 
-## Parte 1
+### Parte 1
 
 Al aceptar el *assignment* del [Lab04](https://github.com/digital-electronics-UNAL/2024-2/tree/main?tab=readme-ov-file#cronograma), clonarán el repositorio correspondiente para la entrega y encontrarán en la carpeta ```src``` archivos fuente que contienen la descripción de hardware necesaria para controlar la pantalla LCD 16x2, permitiendo visualizar texto estático en sus dos filas. 
 
@@ -112,7 +112,7 @@ Con este material deben hacer lo siguiente:
             <img src="/pics/lab04/101_3.png" alt="alt text" width=500 >
             </p>
 
-## Parte 2
+### Parte 2
 
 Una vez comprendida la descripción del *hardware* proporcionado y el funcionamiento de la pantalla LCD, deberán implementar la lógica necesaria para visualizar texto dinámico, es decir, información que cambia en función de dos entradas (inputs) al módulo de control de la pantalla.
 
