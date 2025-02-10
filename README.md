@@ -160,12 +160,28 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>15 - 20 Dic/2024</td>
   </tr>
   <tr>
-    <td>7-8</td>
+    <td>7-10</td>
     <td>Visualización del nivel de carga</td>
     <td><a href="/labs/lab03/README.md">lab03</a></td>
     <td><a href="https://classroom.github.com/a/719DwIKJ">Link </a></td>
     <td><a href="https://classroom.github.com/a/izNx0NVW">Link </a></td>
-    <td>20 - 24 Ene/2025</td>
+    <td>9 Feb/2025</td>
+  </tr>
+  <tr>
+    <td>11-12</td>
+    <td>Visualización usando pantalla LCD 16 x 2</td>
+    <td><a href="/labs/lab04/README.md">lab04</a></td>
+    <td><a href="">Link </a></td>
+    <td><a href="">Link </a></td>
+    <td>23 Feb/2025</td>
+  </tr>
+  <tr>
+    <td>13-16</td>
+    <td>Proyecto final</td>
+    <td><a href=""> </a></td>
+    <td><a href="">Link </a></td>
+    <td><a href="">Link </a></td>
+    <td></td>
   </tr>
 </table>
 
