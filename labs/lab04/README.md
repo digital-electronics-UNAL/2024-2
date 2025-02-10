@@ -4,7 +4,7 @@
 
 1. [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
 
-2. [Planteamiento del problema](#planteamiento-del-problema)
+2. [Introducción](#introducción)
 
 3. [Requisitos funcionales](#requisitos-funcionales)
 
@@ -18,7 +18,22 @@
 # Objetivos de aprendizaje
 
 
-# Planteamiento del problema
+# Introducción
+
+En sistemas embebidos y arquitecturas digitales, la interacción con dispositivos de visualización es esencial para la presentación de información en tiempo real. Entre estos dispositivos, las pantallas LCD alfanuméricas de 16x2 son ampliamente utilizadas debido a su simplicidad y bajo consumo de recursos.
+
+Sin embargo, el control de una LCD 16x2 implica una secuencia precisa de comandos que deben ejecutarse en el orden correcto para inicializar la pantalla, escribir caracteres y actualizar su contenido. En este contexto, el uso de una Máquina de Estados Finitos (FSM) en *hardware* permite gestionar de manera estructurada el flujo de datos y señales de control necesarias para escribir en la pantalla.
+
+A conitnuación se presenta una introducción a las características básicas de la pantalla
+LCD:
+
+<p align="center">
+ <img src="/pics/lab04/LCD16x2.png" alt="alt text" width=300 >
+</p>
+<p align="center">
+ Figura 1
+</p>
+
 
 # Requisitos funcionales
 
