@@ -1,4 +1,4 @@
-# Laboratorio 04: Visualización usando pantalla LCD 16 x 2
+# Laboratorio 04: Visualización usando pantalla LCD 16x2
 
 Índice:
 
@@ -114,11 +114,11 @@ Con este material deben hacer lo siguiente:
 
 ## Parte 2
 
-Una vez comprendida la descripción del hardware y el funcionamiento de la LCD, deberán implementar la lógica necesaria para visualizar texto dinámico, es decir, información que cambia en función de dos entradas (inputs) al módulo de control de la pantalla.
+Una vez comprendida la descripción del *hardware* proporcionado y el funcionamiento de la pantalla LCD, deberán implementar la lógica necesaria para visualizar texto dinámico, es decir, información que cambia en función de dos entradas (inputs) al módulo de control de la pantalla.
 
 Estas entradas serán valores numéricos de 8 bits y se mostrarán junto al texto estático previamente visualizado. Para ello, se recomienda:
 
-1. Revisar detenidamente el [*datasheet*](/labs/lab04/lcd016n002bcfhet.pdf) de la LCD y determinar las intrucciones necesarias para posicionar el texto dinámico en un cursor posterior a las posiciones ocupadas por el texto estático.
+1. Revisar detenidamente el [*datasheet*](/labs/lab04/lcd016n002bcfhet.pdf) de la pantalla LCD y determinar las intrucciones necesarias para posicionar el texto dinámico en un cursor posterior a las posiciones ocupadas por el texto estático.
 2. Tener en cuenta que la pantalla recibe los caracteres en su representación hexadecimal del código ASCII.
 
 Teniendo en cuenta estas modificaciones deben volver a realizar los ítems 1, 2 y 3 de la [Parte 1](#parte-1).

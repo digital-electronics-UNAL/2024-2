@@ -169,7 +169,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
   </tr>
   <tr>
     <td>11-12</td>
-    <td>Visualización usando pantalla LCD 16 x 2</td>
+    <td>Visualización usando pantalla LCD 16x2</td>
     <td><a href="/labs/lab04/README.md">lab04</a></td>
     <td><a href="">Link </a></td>
     <td><a href="">Link </a></td>
