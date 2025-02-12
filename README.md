@@ -1,4 +1,4 @@
-# Electrónica Digital I - 2024-2
+    # Electrónica Digital I - 2024-2
 
 Índice: 
 - [Electrónica Digital I - 2024-2](#electrónica-digital-i---2024-2)
@@ -171,7 +171,7 @@ Esta metodología está diseñada para garantizar una experiencia de aprendizaje
     <td>11-12</td>
     <td>Visualización usando pantalla LCD 16x2</td>
     <td><a href="/labs/lab04/README.md">lab04</a></td>
-    <td><a href="">Link </a></td>
+    <td><a href="https://classroom.github.com/a/aAZep0PD">Link </a></td>
     <td><a href="https://classroom.github.com/a/IeamTU7j">Link </a></td>
     <td>23 Feb/2025</td>
   </tr>
