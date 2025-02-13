@@ -2,20 +2,21 @@
 
 Índice:
 
-1. [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-
-2. [Introducción](#introducción)
-
-3. [Procedimiento](#procedimiento)
-
-4. [Entregables](#entregables)
-
-5. [Documentación de apoyo](#documentación-de-apoyo-necesaria)
+- [Laboratorio 04: Visualización usando pantalla LCD 16x2](#laboratorio-04-visualización-usando-pantalla-lcd-16x2)
+  - [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
+  - [Introducción](#introducción)
+  - [Procedimiento](#procedimiento)
+    - [Parte 1](#parte-1)
+    - [Parte 2](#parte-2)
+  - [Entregables](#entregables)
+  - [Documentación de apoyo necesaria](#documentación-de-apoyo-necesaria)
 
 *******
 
 
 ## Objetivos de aprendizaje
+
+* Introducir el concepto de máquina de estado en el diseño de hardware utilizando Verilog, enfocando en el control y funcionamiento de una pantalla LCD.
 
 
 ## Introducción
