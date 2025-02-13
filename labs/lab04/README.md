@@ -16,7 +16,7 @@
 
 ## Objetivos de aprendizaje
 
-* Introducir el concepto de máquina de estado en el diseño de hardware utilizando Verilog, enfocando en el control y funcionamiento de una pantalla LCD.
+* Introducir el concepto de máquina de estado en el diseño de hardware utilizando Verilog, enfocado en el control y funcionamiento de una pantalla LCD.
 
 
 ## Introducción
